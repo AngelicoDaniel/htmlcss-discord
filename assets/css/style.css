@@ -18,11 +18,13 @@
 }
 
 header{
-    background-image: url('assets/img/jumbo.png');
+    background-image: url('/assets/img/jumbo.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
 }
+
+
 
 
 .header-list{
@@ -32,7 +34,7 @@ header{
     padding-top: 5px;
 }
 
-.header-btn{
+.btn-white{
     padding: 10px 5px;
 	border-radius: 10rem;
     background-color: white;
@@ -43,6 +45,15 @@ header{
     
 }
 
+.btn-black{
+    padding: 10px 5px;
+	border-radius: 10rem;
+    background-color: black;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    align-items: center;
+}
 
 
 
@@ -63,7 +74,7 @@ header > div{
     margin: 0 auto;
     width: 60%;
     text-align: center;
-    background-color: lightcoral;
+    
 }
 
 nav > ul li{
