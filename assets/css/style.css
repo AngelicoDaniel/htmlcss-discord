@@ -45,17 +45,22 @@ header{
     
 }
 
-.btn-black{
-    padding: 10px 5px;
+.btn{
 	border-radius: 10rem;
-    background-color: black;
-    color: white;
-    width: 4rem;
-    height: 2rem;
+    padding: 10px 30px;
     align-items: center;
+    margin: 20px;
 }
 
+.white{
+    background-color: white;
+    color: black;
+}
 
+.black{
+    background-color: black;
+    color: white;
+}
 
 
 nav{
