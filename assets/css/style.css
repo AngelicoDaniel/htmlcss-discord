@@ -157,12 +157,11 @@ footer > div{
 }
 
 footer > div:first-child{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #7289DA;
 }
 
 .footer-social{
     flex-basis: 30%;
-    background-color: lightblue;
 }
 
 .footer-menu{
@@ -179,12 +178,16 @@ footer > div:first-child{
     border: none;
     background-color: rgb(142,161,225);
     color: white;
-    margin: 25px;
- }
 
+ }
 
 
 h3{
     font-size: 1.5rem;
     font-weight: bolder;
 }
+
+footer{
+    background-color: #23272A;
+}
+
