@@ -195,3 +195,12 @@ footer{
     color: white;
     padding: 5px;
 }
+
+.flag{
+    width: 30px;
+}
+h3{
+    color: #7289DA;
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
