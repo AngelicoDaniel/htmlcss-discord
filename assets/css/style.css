@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-80{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.flex{
+    display: flex;
+}
+
+.f-space-between{
+    justify-content: space-between;
+}
+
+header{
+    background-color: lightgray;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    background-color: lightblue;
+}
+
+nav div{
+    background-color: lightgreen;
+}
+
+header > div{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+nav > ul li{
+     list-style-type: none;
+    display: inline-block;
+    
+}
+
+#canali-discord > div,
+#canali-fandom > div,
+#canali-vocali > div{
+    justify-content: space-between;
+}
+
+.img{
+    flex-basis: 58%;
+    background-color: lightgreen; 
+}
+
+.text-section{
+    flex-basis: 40%;
+    background-color: green;
+}
+  
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+#canali-vocali,
+#parte-3{
+    background-color: lightgray;
+}
+
+
+
+#parte-3 > div{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+}
+
+footer > div{
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+footer > div:first-child{
+    border-bottom: 2px solid red;
+}
+
+.footer-social{
+    flex-basis: 30%;
+    background-color: lightblue;
+}
+
+.footer-menu{
+    flex-basis: 68%;
+    background-color: lightgreen;
+}
+
+.footer-logo,
+.footer-btn{
+    background-color: lightgray;
+}
