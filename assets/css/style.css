@@ -205,3 +205,14 @@ h2{
     margin: 5px 0;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.top-list{
+    color: #7289DA;
+}
+
+li{
+    color: white;
+}
