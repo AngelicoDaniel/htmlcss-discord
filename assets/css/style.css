@@ -18,15 +18,17 @@
 }
 
 header{
-    background-color: lightgray;
+    background-image: url('assets/img/jumbo.png');
 }
+
+
 
 nav{
     display: flex;
     width: 80%;
     justify-content: space-between;
     margin: auto;
-    background-color: lightblue;
+    background-color: cornflowerblue;
 }
 
 nav div{
