@@ -22,6 +22,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 30rem;
+    margin-bottom: 10px;
 }
 
 .container-60{
@@ -33,7 +34,7 @@ header{
 .header-list{
     align-items: center;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-top: 5px;
 }
 
@@ -77,9 +78,7 @@ nav{
     background-color: #265EE9;
 }
 
-nav div{
-    background-color: lightgreen;
-}
+
 
 header > div{
     margin: 0 auto;
@@ -102,12 +101,25 @@ nav > ul li{
 
 .img{
     flex-basis: 58%;
-    background-color: lightgreen; 
+    text-align: center;
 }
 
 .text-section{
     flex-basis: 40%;
-    background-color: green;
+    padding: 30px;
+    margin: auto;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 3rem;
+}
+
+span{
+    line-height: 1.5rem;
+    padding-top: 3rem;
+    font-size: 1.4rem;
 }
   
 .order-1{
