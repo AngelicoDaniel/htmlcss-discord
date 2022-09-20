@@ -135,7 +135,9 @@ span{
     background-color: lightgray;
 }
 
-
+.text-section{
+    color: black;
+}
 
 #parte-3 > div{
     margin: 0 auto;
@@ -171,4 +173,18 @@ footer > div:first-child{
 .footer-logo,
 .footer-btn{
     background-color: lightgray;
+}
+
+.blue{
+    border: none;
+    background-color: rgb(142,161,225);
+    color: white;
+    margin: 25px;
+ }
+
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
