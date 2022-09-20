@@ -166,7 +166,7 @@ footer > div:first-child{
 
 .footer-menu{
     flex-basis: 68%;
-    background-color: lightgreen;
+
 }
 
 .footer-logo,
@@ -199,8 +199,9 @@ footer{
 .flag{
     width: 30px;
 }
-h3{
+h2{
     color: #7289DA;
     font-size: 2.5rem;
     margin: 5px 0;
 }
+
